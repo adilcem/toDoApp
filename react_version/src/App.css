@@ -1,5 +1,5 @@
-* {
-  box-sizing: border-box;
+.App {
+  text-align: center;
 }
 
 html, body {
@@ -37,23 +37,11 @@ ul {
   flex: none;
 }
 
-.button {
-  padding: 10px 20px;
-}
-
 .todo-list {
   flex: 1 1 0;
   margin-top: 20px;
   padding: 20px;
   overflow-y: auto;
-}
-
-.todo-delete {
-  margin: 10px;
-}
-
-.todo-checkbox {
-  margin: 10px;
 }
 
 .todo-container {
@@ -65,27 +53,20 @@ ul {
   border-top: 1px solid #333;
 }
 
-.column {
-  float: left;
-  padding: 5px;
-  margin: auto;
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .left {
-  width: 10%;
+  flex-basis: 10%;
 }
 
 .right {
-  width: 15%;
-  text-align: right;
+  flex-basis: 15%;
 }
 
 .middle {
-  width: 75%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  flex-basis: 75%;
 }

@@ -2,7 +2,6 @@ const classNames = {
   TODO_ITEM: 'todo-container',
   TODO_CHECKBOX: 'todo-checkbox',
   TODO_TEXT: 'todo-text',
-  TODO_DELETE: 'todo-delete',
 }
 
 const list = document.getElementById('todo-list')
@@ -46,11 +45,11 @@ function newTodo() {
 
     // Columns 
     const leftColumn = document.createElement('div')
-    leftColumn.className = 'column left'
+    leftColumn.className = 'left'
     const middleColumn = document.createElement('div')
-    middleColumn.className = 'column middle'
+    middleColumn.className = 'middle'
     const rightColumn = document.createElement('div')
-    rightColumn.className = 'column right'
+    rightColumn.className = 'right'
 
     // Append paragraph, checkbox and delete button to columns
     leftColumn.appendChild(checkboxToDo)
