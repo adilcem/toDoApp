@@ -1,6 +1,10 @@
 # dependencies
 react_version/node_modules
 
+react_native_version/node_modules
+react_native_version/web-build/
+react_native_version/web-report/
+react_native_version/.expo/
 # misc
 .DS_Store
 .env.local

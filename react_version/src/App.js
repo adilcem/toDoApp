@@ -1,4 +1,4 @@
-// WITH CLASS BASED FUNCTION
+// CLASS COMPONENT
 import React from 'react';
 import './App.css';
 import Todo from './components/Todo'
@@ -67,7 +67,7 @@ class App extends React.Component {
 
 export default App;
 
-// WITH STATELESS FUNCTION AND REACT HOOKS
+// FUNCTION COMPONENT
 
 // import React, {useState} from 'react';
 // import './App.css';
@@ -131,5 +131,5 @@ export default App;
 //   )
 // }
 
-// export default App;
+// export default App
 
